@@ -1,0 +1,239 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.3/theme.json",
+	"version": 3,
+	"settings": {
+		"appearanceTools": true,
+		"layout": {
+			"contentSize": "680px",
+			"wideSize": "1140px"
+		},
+		"color": {
+			"defaultPalette": false,
+			"defaultGradients": false,
+			"palette": [
+				{ "slug": "primary", "color": "#1B2A4A", "name": "Primary" },
+				{ "slug": "secondary", "color": "#F5F0E8", "name": "Secondary" },
+				{ "slug": "accent", "color": "#B8860B", "name": "Accent" },
+				{ "slug": "base", "color": "#FEFCF8", "name": "Base" },
+				{ "slug": "contrast", "color": "#1A1A1A", "name": "Contrast" }
+			]
+		},
+		"typography": {
+			"defaultFontSizes": false,
+			"fontFamilies": [
+				{
+					"slug": "heading",
+					"name": "Heading Font",
+					"fontFamily": "'Lora', Georgia, serif",
+					"fontFace": [
+						{
+							"fontFamily": "Lora",
+							"fontWeight": "400 700",
+							"fontStyle": "normal",
+							"fontDisplay": "swap",
+							"src": [ "file:./assets/fonts/lora/Lora-VariableFont_wght.ttf" ]
+						},
+						{
+							"fontFamily": "Lora",
+							"fontWeight": "400 700",
+							"fontStyle": "italic",
+							"fontDisplay": "swap",
+							"src": [ "file:./assets/fonts/lora/Lora-Italic-VariableFont_wght.ttf" ]
+						}
+					]
+				},
+				{
+					"slug": "body",
+					"name": "Body Font",
+					"fontFamily": "'Source Sans 3', 'Source Sans Pro', system-ui, sans-serif",
+					"fontFace": [
+						{
+							"fontFamily": "Source Sans 3",
+							"fontWeight": "300 700",
+							"fontStyle": "normal",
+							"fontDisplay": "swap",
+							"src": [ "file:./assets/fonts/source-sans/SourceSans3-VariableFont_wght.ttf" ]
+						},
+						{
+							"fontFamily": "Source Sans 3",
+							"fontWeight": "300 700",
+							"fontStyle": "italic",
+							"fontDisplay": "swap",
+							"src": [ "file:./assets/fonts/source-sans/SourceSans3-Italic-VariableFont_wght.ttf" ]
+						}
+					]
+				}
+			],
+			"fontSizes": [
+				{ "slug": "sm", "size": "0.875rem", "name": "Small" },
+				{ "slug": "md", "size": "1rem", "name": "Medium" },
+				{ "slug": "lg", "size": "1.25rem", "name": "Large" },
+				{ "slug": "xl", "size": "1.5rem", "name": "Extra Large" },
+				{ "slug": "2xl", "size": "2rem", "name": "2X Large" },
+				{ "slug": "3xl", "size": "clamp(2.25rem, 5vw, 3rem)", "name": "3X Large" }
+			]
+		},
+		"spacing": {
+			"spacingScale": {
+				"steps": 0
+			},
+			"spacingSizes": [
+				{ "slug": "sm", "size": "1rem", "name": "Small" },
+				{ "slug": "md", "size": "2rem", "name": "Medium" },
+				{ "slug": "lg", "size": "4rem", "name": "Large" },
+				{ "slug": "xl", "size": "8rem", "name": "Extra Large" }
+			],
+			"units": [ "px", "em", "rem", "%", "vh", "vw" ]
+		},
+		"blocks": {
+			"core/paragraph": {
+				"typography": {
+					"lineHeight": true
+				}
+			}
+		}
+	},
+	"styles": {
+		"color": {
+			"background": "var(--wp--preset--color--base)",
+			"text": "var(--wp--preset--color--contrast)"
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--body)",
+			"fontSize": "var(--wp--preset--font-size--md)",
+			"lineHeight": "1.7"
+		},
+		"spacing": {
+			"blockGap": "1.5rem"
+		},
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--heading)",
+					"fontWeight": "700",
+					"lineHeight": "1.3"
+				},
+				"color": {
+					"text": "var(--wp--preset--color--primary)"
+				}
+			},
+			"h1": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--3xl)"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--2xl)"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--xl)"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontSize": "var(--wp--preset--font-size--lg)"
+				}
+			},
+			"link": {
+				"color": {
+					"text": "var(--wp--preset--color--primary)"
+				},
+				":hover": {
+					"color": {
+						"text": "var(--wp--preset--color--accent)"
+					}
+				},
+				":focus": {
+					"color": {
+						"text": "var(--wp--preset--color--accent)"
+					}
+				}
+			},
+			"button": {
+				"color": {
+					"background": "var(--wp--preset--color--primary)",
+					"text": "var(--wp--preset--color--base)"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--body)",
+					"fontWeight": "600",
+					"fontSize": "var(--wp--preset--font-size--md)"
+				},
+				"border": {
+					"radius": "2px"
+				},
+				":hover": {
+					"color": {
+						"background": "var(--wp--preset--color--accent)",
+						"text": "var(--wp--preset--color--base)"
+					}
+				},
+				":focus": {
+					"color": {
+						"background": "var(--wp--preset--color--accent)",
+						"text": "var(--wp--preset--color--base)"
+					}
+				}
+			}
+		},
+		"blocks": {
+			"core/site-title": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--heading)",
+					"fontSize": "var(--wp--preset--font-size--lg)",
+					"fontWeight": "700"
+				},
+				"elements": {
+					"link": {
+						"color": {
+							"text": "var(--wp--preset--color--primary)"
+						},
+						":hover": {
+							"color": {
+								"text": "var(--wp--preset--color--primary)"
+							}
+						}
+					}
+				}
+			},
+			"core/navigation": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--body)",
+					"fontSize": "var(--wp--preset--font-size--sm)",
+					"fontWeight": "500"
+				}
+			},
+			"core/post-title": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--heading)",
+					"fontSize": "var(--wp--preset--font-size--3xl)"
+				}
+			},
+			"core/quote": {
+				"border": {
+					"left": {
+						"color": "var(--wp--preset--color--accent)",
+						"width": "3px"
+					}
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--heading)",
+					"fontStyle": "italic"
+				}
+			}
+		}
+	},
+	"templateParts": [
+		{ "name": "header", "title": "Header", "area": "header" },
+		{ "name": "footer", "title": "Footer", "area": "footer" },
+		{ "name": "post-meta", "title": "Post Meta" },
+		{ "name": "cta-banner", "title": "CTA Banner" },
+		{ "name": "hero", "title": "Hero" }
+	],
+	"customTemplates": [
+		{ "name": "page-no-title", "title": "Page (No Title)", "postTypes": [ "page" ] }
+	]
+}

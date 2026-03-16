@@ -1,0 +1,19 @@
+/* Editor-specific overrides for Trajectory theme. */
+
+/* Constrain content width in editor to match front end. */
+.editor-styles-wrapper .wp-block {
+	max-width: 680px;
+}
+
+.editor-styles-wrapper .wp-block[data-align="wide"] {
+	max-width: 1140px;
+}
+
+.editor-styles-wrapper .wp-block[data-align="full"] {
+	max-width: none;
+}
+
+/* Match front-end paragraph width constraint. */
+.editor-styles-wrapper p {
+	max-width: 70ch;
+}

@@ -1,0 +1,68 @@
+{
+	"version": 3,
+	"title": "Warm",
+	"settings": {
+		"color": {
+			"palette": [
+				{ "slug": "primary", "color": "#A0522D", "name": "Primary" },
+				{ "slug": "secondary", "color": "#FDF6EE", "name": "Secondary" },
+				{ "slug": "accent", "color": "#2E7D4F", "name": "Accent" },
+				{ "slug": "base", "color": "#FFFDF9", "name": "Base" },
+				{ "slug": "contrast", "color": "#2C1810", "name": "Contrast" }
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"slug": "heading",
+					"name": "Heading Font",
+					"fontFamily": "'Nunito', system-ui, sans-serif",
+					"fontFace": [
+						{
+							"fontFamily": "Nunito",
+							"fontWeight": "400 800",
+							"fontStyle": "normal",
+							"fontDisplay": "swap",
+							"src": [ "file:./assets/fonts/nunito/Nunito-VariableFont_wght.ttf" ]
+						}
+					]
+				},
+				{
+					"slug": "body",
+					"name": "Body Font",
+					"fontFamily": "'Lato', system-ui, sans-serif",
+					"fontFace": [
+						{
+							"fontFamily": "Lato",
+							"fontWeight": "300 700",
+							"fontStyle": "normal",
+							"fontDisplay": "swap",
+							"src": [ "file:./assets/fonts/lato/Lato-Regular.ttf" ]
+						},
+						{
+							"fontFamily": "Lato",
+							"fontWeight": "700",
+							"fontStyle": "normal",
+							"fontDisplay": "swap",
+							"src": [ "file:./assets/fonts/lato/Lato-Bold.ttf" ]
+						}
+					]
+				}
+			]
+		}
+	},
+	"styles": {
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontWeight": "700"
+				}
+			},
+			"button": {
+				"border": {
+					"radius": "6px"
+				}
+			}
+		}
+	}
+}

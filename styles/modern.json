@@ -1,0 +1,61 @@
+{
+	"version": 3,
+	"title": "Modern",
+	"settings": {
+		"color": {
+			"palette": [
+				{ "slug": "primary", "color": "#2D2D2D", "name": "Primary" },
+				{ "slug": "secondary", "color": "#F5F5F5", "name": "Secondary" },
+				{ "slug": "accent", "color": "#007A7A", "name": "Accent" },
+				{ "slug": "base", "color": "#FFFFFF", "name": "Base" },
+				{ "slug": "contrast", "color": "#1A1A1A", "name": "Contrast" }
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"slug": "heading",
+					"name": "Heading Font",
+					"fontFamily": "'Inter', system-ui, sans-serif",
+					"fontFace": [
+						{
+							"fontFamily": "Inter",
+							"fontWeight": "400 800",
+							"fontStyle": "normal",
+							"fontDisplay": "swap",
+							"src": [ "file:./assets/fonts/inter/Inter-VariableFont_opsz,wght.ttf" ]
+						}
+					]
+				},
+				{
+					"slug": "body",
+					"name": "Body Font",
+					"fontFamily": "'Inter', system-ui, sans-serif",
+					"fontFace": [
+						{
+							"fontFamily": "Inter",
+							"fontWeight": "300 700",
+							"fontStyle": "normal",
+							"fontDisplay": "swap",
+							"src": [ "file:./assets/fonts/inter/Inter-VariableFont_opsz,wght.ttf" ]
+						}
+					]
+				}
+			]
+		}
+	},
+	"styles": {
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontWeight": "800"
+				}
+			},
+			"button": {
+				"border": {
+					"radius": "4px"
+				}
+			}
+		}
+	}
+}
