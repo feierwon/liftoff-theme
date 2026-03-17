@@ -23,7 +23,7 @@
 							"fontWeight": "400 800",
 							"fontStyle": "normal",
 							"fontDisplay": "swap",
-							"src": [ "file:./assets/fonts/inter/Inter-VariableFont_opsz,wght.ttf" ]
+							"src": [ "file:./assets/fonts/inter/Inter-VariableFont_opsz,wght.woff2" ]
 						}
 					]
 				},
@@ -37,7 +37,7 @@
 							"fontWeight": "300 700",
 							"fontStyle": "normal",
 							"fontDisplay": "swap",
-							"src": [ "file:./assets/fonts/inter/Inter-VariableFont_opsz,wght.ttf" ]
+							"src": [ "file:./assets/fonts/inter/Inter-VariableFont_opsz,wght.woff2" ]
 						}
 					]
 				}

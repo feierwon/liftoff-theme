@@ -31,14 +31,14 @@
 							"fontWeight": "400 700",
 							"fontStyle": "normal",
 							"fontDisplay": "swap",
-							"src": [ "file:./assets/fonts/lora/Lora-VariableFont_wght.ttf" ]
+							"src": [ "file:./assets/fonts/lora/Lora-VariableFont_wght.woff2" ]
 						},
 						{
 							"fontFamily": "Lora",
 							"fontWeight": "400 700",
 							"fontStyle": "italic",
 							"fontDisplay": "swap",
-							"src": [ "file:./assets/fonts/lora/Lora-Italic-VariableFont_wght.ttf" ]
+							"src": [ "file:./assets/fonts/lora/Lora-Italic-VariableFont_wght.woff2" ]
 						}
 					]
 				},
@@ -52,14 +52,14 @@
 							"fontWeight": "300 700",
 							"fontStyle": "normal",
 							"fontDisplay": "swap",
-							"src": [ "file:./assets/fonts/source-sans/SourceSans3-VariableFont_wght.ttf" ]
+							"src": [ "file:./assets/fonts/source-sans/SourceSans3-VariableFont_wght.woff2" ]
 						},
 						{
 							"fontFamily": "Source Sans 3",
 							"fontWeight": "300 700",
 							"fontStyle": "italic",
 							"fontDisplay": "swap",
-							"src": [ "file:./assets/fonts/source-sans/SourceSans3-Italic-VariableFont_wght.ttf" ]
+							"src": [ "file:./assets/fonts/source-sans/SourceSans3-Italic-VariableFont_wght.woff2" ]
 						}
 					]
 				}

@@ -1,0 +1,75 @@
+{
+	"version": 3,
+	"title": "Classic",
+	"settings": {
+		"color": {
+			"palette": [
+				{ "slug": "primary", "color": "#1B2A4A", "name": "Primary" },
+				{ "slug": "secondary", "color": "#F5F0E8", "name": "Secondary" },
+				{ "slug": "accent", "color": "#B8860B", "name": "Accent" },
+				{ "slug": "base", "color": "#FEFCF8", "name": "Base" },
+				{ "slug": "contrast", "color": "#1A1A1A", "name": "Contrast" }
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"slug": "heading",
+					"name": "Heading Font",
+					"fontFamily": "'Lora', Georgia, serif",
+					"fontFace": [
+						{
+							"fontFamily": "Lora",
+							"fontWeight": "400 700",
+							"fontStyle": "normal",
+							"fontDisplay": "swap",
+							"src": [ "file:./assets/fonts/lora/Lora-VariableFont_wght.woff2" ]
+						},
+						{
+							"fontFamily": "Lora",
+							"fontWeight": "400 700",
+							"fontStyle": "italic",
+							"fontDisplay": "swap",
+							"src": [ "file:./assets/fonts/lora/Lora-Italic-VariableFont_wght.woff2" ]
+						}
+					]
+				},
+				{
+					"slug": "body",
+					"name": "Body Font",
+					"fontFamily": "'Source Sans 3', 'Source Sans Pro', system-ui, sans-serif",
+					"fontFace": [
+						{
+							"fontFamily": "Source Sans 3",
+							"fontWeight": "300 700",
+							"fontStyle": "normal",
+							"fontDisplay": "swap",
+							"src": [ "file:./assets/fonts/source-sans/SourceSans3-VariableFont_wght.woff2" ]
+						},
+						{
+							"fontFamily": "Source Sans 3",
+							"fontWeight": "300 700",
+							"fontStyle": "italic",
+							"fontDisplay": "swap",
+							"src": [ "file:./assets/fonts/source-sans/SourceSans3-Italic-VariableFont_wght.woff2" ]
+						}
+					]
+				}
+			]
+		}
+	},
+	"styles": {
+		"elements": {
+			"heading": {
+				"typography": {
+					"fontWeight": "700"
+				}
+			},
+			"button": {
+				"border": {
+					"radius": "2px"
+				}
+			}
+		}
+	}
+}

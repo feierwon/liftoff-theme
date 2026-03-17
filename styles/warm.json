@@ -23,7 +23,7 @@
 							"fontWeight": "400 800",
 							"fontStyle": "normal",
 							"fontDisplay": "swap",
-							"src": [ "file:./assets/fonts/nunito/Nunito-VariableFont_wght.ttf" ]
+							"src": [ "file:./assets/fonts/nunito/Nunito-VariableFont_wght.woff2" ]
 						}
 					]
 				},
@@ -37,14 +37,14 @@
 							"fontWeight": "300 700",
 							"fontStyle": "normal",
 							"fontDisplay": "swap",
-							"src": [ "file:./assets/fonts/lato/Lato-Regular.ttf" ]
+							"src": [ "file:./assets/fonts/lato/Lato-Regular.woff2" ]
 						},
 						{
 							"fontFamily": "Lato",
 							"fontWeight": "700",
 							"fontStyle": "normal",
 							"fontDisplay": "swap",
-							"src": [ "file:./assets/fonts/lato/Lato-Bold.ttf" ]
+							"src": [ "file:./assets/fonts/lato/Lato-Bold.woff2" ]
 						}
 					]
 				}
